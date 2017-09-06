@@ -4,7 +4,7 @@ Created on Fri Jan 27 22:53:50 2017
 
 @author: Abhijeet Singh
 diedit dan disesuaikan ulang oleh:
-Ikhwanul Muslimin, 15 Dzulhijjah 1438/5 September 2017
+Ikhwanul Muslimin dan Aditio Pangestu, 15 Dzulhijjah 1438/5 September 2017
 untuk keperluan tugas NLP
 WARN: Hapus content file training_matrix.arff dan test_matrix.arff sebelum run program
 """
@@ -19,7 +19,7 @@ from collections import Counter
 
 numberWordinDict = 3000
 train_dir = 'train-mails'
-test_dir = 'test_mails'
+test_dir = 'test-mails'
 
 def make_Dictionary(train_dir):
     emails = [os.path.join(train_dir,f) for f in os.listdir(train_dir)]   
